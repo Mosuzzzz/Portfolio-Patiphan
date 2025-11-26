@@ -1,10 +1,13 @@
 {
-    "compilerOptions"  : {
-        "ignoreDeprecations": "6.0",
+    "compilerOptions": {
         "baseUrl": ".",
         "paths": {
-            "#*" : ["src/*"]
+            "#*": [
+                "src/*"
+            ]
         }
     },
-    "include": ["src"]
+    "include": [
+        "src"
+    ]
 }

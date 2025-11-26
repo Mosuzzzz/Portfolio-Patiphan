@@ -30,9 +30,9 @@ export default defineConfig({
         root,
         "src/hoc"
       ),
-      "#window": resolve(
+      "#windows": resolve(
         root,
-        "src/window"
+        "src/windows"
       ),
     },
   },
