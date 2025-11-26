@@ -1,9 +1,9 @@
 import gsap from "gsap";
-import {Draggable} from "gsap/Draggable";
-import { Navbar,Welcome,Dock } from "#components";
-import {TerminalWindow,SafariWindow,ResumeWindow,FinderWindow} from "#windows";
+import { Draggable } from "gsap/Draggable";
+import { Navbar, Welcome, Dock } from "#components";
+import { TerminalWindow, SafariWindow, ResumeWindow, FinderWindow, ContactWindow } from "#windows";
 
-gsap.registerPlugin(Draggable); 
+gsap.registerPlugin(Draggable);
 
 const App = () => {
   return (
@@ -15,6 +15,7 @@ const App = () => {
       <SafariWindow />
       <ResumeWindow />
       <FinderWindow />
+      <ContactWindow />
     </main>
   )
 }
