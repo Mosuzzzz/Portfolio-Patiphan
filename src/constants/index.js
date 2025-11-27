@@ -85,7 +85,7 @@ const techStack = [
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express","Rust"],
+    items: ["Node.js", "Express", "Rust"],
   },
   {
     category: "Database",
@@ -107,12 +107,21 @@ const socials = [
   },
 ];
 
+const favorites = [
+  { id: 1, name: "Github", url: "https://github.com/Mosuzzzz", icon: "github" }
+];
+
+const photos = [
+  { id: 1, src: "/images/E-shop.png", title: "Project 1", date: "2025" }
+];
 export {
   navLinks,
   navIcons,
   dockApps,
   techStack,
   socials,
+  favorites,
+  photos
 };
 
 const WORK_LOCATION = {
@@ -177,8 +186,6 @@ const RESUME_LOCATION = {
       icon: "/images/pdf.png",
       kind: "file",
       fileType: "pdf",
-      // you can add `href` if you want to open a hosted resume
-      // href: "/your/resume/path.pdf",
     },
   ],
 };
